@@ -8,3 +8,4 @@ Repositório com os códigos e materiais extras para a disciplina de Desenvolvim
 * Aula 02 - Introdução HTML
 * Aula 03 - Listas
 * Aula 04 - Conteúdos fraseados
+* Aula 05 - Imagens e *Links*
