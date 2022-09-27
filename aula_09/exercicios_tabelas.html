@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+        	<title>Imagens e Links</title>
+        	<meta charset="utf-8">
+		<style>
+			table, th, td{
+				border: 1px solid black;
+				border-collapse:collapse;
+			}
+		</style>
+	</head>
+	<body>
+		<h1>Exercícios sobre Tabelas</h1>
+		<p><b>01. </b>Crie uma página HTML que apresente uma tabela com os estados do Brasil e suas respectivas capitais.</p>
+		<br>
+		<table>
+			<thead>
+				<tr>
+					<th colspan="2">Estados do Brasil</th>
+				</tr>
+				<tr>
+					<th>Estado</th>
+					<th>Capital</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Paraná</td>
+					<td>Curitiba</td>
+				</tr>
+				<tr>
+					<td>Santa Catarina</td>
+					<td>Florianópolis</td>
+				</tr>
+				<tr>
+					<td>Rio Grande do Sul</td>
+					<td>Porto Alegre</td>
+				</tr>
+			</tbody>
+		</table>
+		<br>
+		<p><b>02. </b>. Crie uma página HTML que apresente os grupos da copa do mundo em tabelas com o nome do país e bandeira nacional.</p>
+		<br>
+		<table>
+			<thead>
+				<tr>
+					<th colspan="2">Grupo A</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Qatar.svg/320px-Flag_of_Qatar.svg.png" width="50"></td>
+					<td>Catar</td>
+				</tr>
+				<tr>
+					<td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/320px-Flag_of_Ecuador.svg.png" width="50"></td>
+					<td>Equador</td>
+				</tr>
+				<tr>
+					<td><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/320px-Flag_of_the_Netherlands.svg.png" width="50"></td>
+					<td>Holanda</td>
+				</tr>
+				<tr>
+					<td><img src="https://upload.wikimedia.org/wikipedia/commons/f/fd/Flag_of_Senegal.svg" width="50"></td>
+					<td>Senegal</td>
+				</tr>
+			</tbody>
+		</table>
+		<br>
+		<p><b>03. </b>Crie uma página HTML que apresente uma tabela com os produtos, quantidade e valores comprados em um supermercado e o valor total da compra.</p>
+		<br>
+		<table>
+			<thead>
+				<tr>
+					<th colspan="3">Lista de Compras</th>
+				</tr>
+				<tr>
+					<th>Produto</th>
+					<th>Quantidade</th>
+					<th>Valor Unitário</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Café</td>
+					<td>1</td>
+					<td>R$8.50</td>
+				</tr>
+				<tr>
+					<td>Bolacha Recheada</td>
+					<td>3</td>
+					<td>R$2.99</td>
+				</tr>
+				<tr>
+					<td>Coca-Cola 2l</td>
+					<td>1</td>
+					<td>R$8.99</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<th colspan="2">Valor Total</td>
+					<td>R$8.50</td>
+				</tr>
+			</tfoot>
+		</table>
+		<br>
+		<p><b>04. </b>Crie uma página HTML que contenha uma tabela que apresente a população de algumas cidades do Brasil. Siga o modelo abaixo:</p>
+		<table>
+			<thead>
+				<tr>
+					<th>Estado</th>
+					<th>Cidade</th>
+					<th>População</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td rowspan="3">Santa Catarina</td>
+					<td>Joinville</td>
+					<td>1010101</td>
+				</tr>
+				<tr>
+					<td>Jaraguá do Sul</td>
+					<td>1010101</td>
+				</tr>
+				<tr>
+					<td>Florianópolis</td>
+					<td>1010101</td>
+				</tr>
+				<tr>
+					<td rowspan="3">Paraná</td>
+					<td>Curitiba</td>
+					<td>1010101</td>
+				</tr>
+				<tr>
+					<td>Maringá</td>
+					<td>1010101</td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<th colspan="2">Total</td>
+					<td>1232132</td>
+				</tr>
+			</tfoot>
+		</table>
+		<br>
+		<p><b>05. </b>Crie uma página HTML que contenha uma tabela que apresente um tabuleiro de xadrez. Adicione as letras e números no tabuleiro.</p>
+		<br>
+		<table>
+			<tbody>
+				<tr>
+					<th></th>
+					<th>A</th>
+					<th>B</th>
+					<th>C</th>
+					<th>D</th>
+					<th>E</th>
+					<th>F</th>
+					<th>G</th>
+					<th>H</th>
+					<th></th>
+				</tr>
+				<tr>
+					<td>1</td>
+					<td></td>
+					<td style="background-color:black"></td>
+					<td></td>
+					<td style="background-color:black"></td>
+					<td></td>
+					<td style="background-color:black"></td>
+					<td></td>
+					<td style="background-color:black"></td>
+					<td>1</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td style="background-color:black"></td>
+					<td></td>
+					<td style="background-color:black"></td>
+					<td></td>
+					<td style="background-color:black"></td>
+					<td></td>
+					<td style="background-color:black"></td>
+					<td></td>
+					<td>2</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td></td>
+					<td style="background-color:black"></td>
+					<td></td>
+					<td style="background-color:black"></td>
+					<td></td>
+					<td style="background-color:black"></td>
+					<td></td>
+					<td style="background-color:black"></td>
+					<td>3</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td style="background-color:black"></td>
+					<td></td>
+					<td style="background-color:black"></td>
+					<td></td>
+					<td style="background-color:black"></td>
+					<td></td>
+					<td style="background-color:black"></td>
+					<td></td>
+					<td>4</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td></td>
+					<td style="background-color:black"></td>
+					<td></td>
+					<td style="background-color:black"></td>
+					<td></td>
+					<td style="background-color:black"></td>
+					<td></td>
+					<td style="background-color:black"></td>
+					<td>5</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td style="background-color:black"></td>
+					<td></td>
+					<td style="background-color:black"></td>
+					<td></td>
+					<td style="background-color:black"></td>
+					<td></td>
+					<td style="background-color:black"></td>
+					<td></td>
+					<td>6</td>
+				</tr>
+				<tr>
+					<td>7</td>
+					<td></td>
+					<td style="background-color:black"></td>
+					<td></td>
+					<td style="background-color:black"></td>
+					<td></td>
+					<td style="background-color:black"></td>
+					<td></td>
+					<td style="background-color:black"></td>
+					<td>7</td>
+				</tr>
+				<tr>
+					<td>8</td>
+					<td style="background-color:black"></td>
+					<td></td>
+					<td style="background-color:black"></td>
+					<td></td>
+					<td style="background-color:black"></td>
+					<td></td>
+					<td style="background-color:black"></td>
+					<td></td>
+					<td>8</td>
+				</tr>
+				<tr>
+					<th></th>
+					<th>A</th>
+					<th>B</th>
+					<th>C</th>
+					<th>D</th>
+					<th>E</th>
+					<th>F</th>
+					<th>G</th>
+					<th>H</th>
+					<th></th>
+				</tr>
+			</tbody>
+		</table>
+		<br>
+	</body>
+</html>
