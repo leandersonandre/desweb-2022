@@ -1,0 +1,30 @@
+p, h1 { 
+				font-size: 50px;
+				font-family: 'Inspiration', serif;
+				border: 1px solid red;
+				border-top-width: 2px;
+				border-right-width: 3px;
+				border-bottom-width: 4px;
+				border-left-width: 1px;
+				border-top-color: red;
+				border-right-color: yellow;
+				border-bottom-color: black;
+				border-left-color: cyan;
+				border-top-style: solid;
+				border-right-style: ridge;
+				border-bottom-style: double;
+				border-left-style: dotted;
+
+
+				margin: 20px 20px 5px 10px;
+				padding: 20px 20px 5px 10px;
+				background: green;
+			}
+			p:before {
+  				content: "[";
+  				font-weight: bold;
+			}
+			p:after {
+  				content: "]";
+  				font-weight: bold;
+			}
